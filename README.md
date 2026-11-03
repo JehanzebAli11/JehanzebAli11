@@ -16,11 +16,11 @@ sets, and numbers I publish whether they're good or not.
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [scam-radar](https://github.com/ClankerJZ/scam-radar) | Offline Android scam detector for Roman Urdu and Urdu messages: a fine-tuned Gemma 3 270M, measured against a TF-IDF baseline on real messages | Training this week |
-| [autopilot (Roblox engine)](https://github.com/ClankerJZ/autopilot/tree/roblox-engine) | The first Roblox engine for Aura Autopilot, an AI agent that playtests games through Roblox Studio's MCP server; demo: an agent learning to play football | In progress |
-| [urdu-token-tax](https://github.com/ClankerJZ/urdu-token-tax) | How many more tokens Urdu and Roman Urdu speakers pay than English speakers, across major tokenizers | Running this week |
-| [spark-lab](https://github.com/ClankerJZ/spark-lab) | The always-on job queue, nightly runner and reports behind all of this | Live |
-| [cricket-shot-coach](https://github.com/ClankerJZ/cricket-shot-coach) | Names, grades and coaches a batting shot from a phone video, built with local academies | Prototype |
+| [scam-radar](https://github.com/JehanzebAli11/scam-radar) | Offline Android scam detector for Roman Urdu and Urdu messages: a fine-tuned Gemma 3 270M, measured against a TF-IDF baseline on real messages | Training this week |
+| [autopilot (Roblox engine)](https://github.com/JehanzebAli11/autopilot/tree/roblox-engine) | The first Roblox engine for Aura Autopilot, an AI agent that playtests games through Roblox Studio's MCP server; demo: an agent learning to play football | In progress |
+| [urdu-token-tax](https://github.com/JehanzebAli11/urdu-token-tax) | How many more tokens Urdu and Roman Urdu speakers pay than English speakers, across major tokenizers | Running this week |
+| [spark-lab](https://github.com/JehanzebAli11/spark-lab) | The always-on job queue, nightly runner and reports behind all of this | Live |
+| [cricket-shot-coach](https://github.com/JehanzebAli11/cricket-shot-coach) | Names, grades and coaches a batting shot from a phone video, built with local academies | Prototype |
 
 Coming in December: an open benchmark of prompt-injection and jailbreak attacks in Urdu
 and Roman Urdu.
