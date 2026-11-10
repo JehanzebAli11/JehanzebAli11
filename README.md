@@ -1,38 +1,38 @@
 # Jehanzeb Ali
 
-**Founder and AI engineer in Karachi. I make small models and AI agents work for people
-that frontier models serve badly, and I measure it.**
+**Applied AI engineer: agents, evals and guardrails · game AI · native Urdu.**
 
-I founded [Valar](https://valar.digital), an AI traffic firewall that catches sensitive
-data and prompt attacks before they reach LLMs, in English, Urdu and Roman Urdu, and
-[TableSide](https://tableside.pk), photo-to-3D AR menus running in Pakistani restaurants.
-Before that I spent six years building games on Roblox, Unity VR and mobile, including
-NFL Football Universe (400k+ daily players) and 15+ VR titles on the Meta Store.
+I build AI agents that act in 3D worlds, plus the evals and guardrails that prove what they did.
+Before AI, I spent 5+ years shipping Roblox and Unity VR games, including NFL Football Universe
+(400k+ daily players) and 15+ VR titles on the Meta Store. Karachi, Pakistan · open to remote
+work or relocation.
 
-Right now I'm building in public on an NVIDIA DGX Spark: open-weight models, real test
-sets, and numbers I publish whether they're good or not.
+### AI work
 
-### Building now
-
-| Project | What it is | Status |
+| Project | What it is | Result so far |
 | --- | --- | --- |
-| [scam-radar](https://github.com/JehanzebAli11/scam-radar) | Offline Android scam detector for Roman Urdu and Urdu messages: a fine-tuned Gemma 3 270M, measured against a TF-IDF baseline on real messages | Training this week |
-| [autopilot (Roblox engine)](https://github.com/JehanzebAli11/autopilot/tree/roblox-engine) | The first Roblox engine for Aura Autopilot, an AI agent that playtests games through Roblox Studio's MCP server; demo: an agent learning to play football | In progress |
-| [urdu-token-tax](https://github.com/JehanzebAli11/urdu-token-tax) | How many more tokens Urdu and Roman Urdu speakers pay than English speakers, across major tokenizers | Running this week |
-| [spark-lab](https://github.com/JehanzebAli11/spark-lab) | The always-on job queue, nightly runner and reports behind all of this | Live |
-| [cricket-shot-coach](https://github.com/JehanzebAli11/cricket-shot-coach) | Names, grades and coaches a batting shot from a phone video, built with local academies | Prototype |
+| [**worldsmith**](https://github.com/JehanzebAli11/worldsmith) | An AI architect fixes a broken game *room* so the same frozen player can finish it. Rooms are built in Roblox Studio over MCP from a bounded JSON recipe; a validator rejects patches that cheat. | On a room where the player fell 3 of 3 times, Claude Haiku, Sonnet and Opus each proposed one valid patch, and the rebuilt room was completed 3 of 3 (one run per model). |
+| [**Autopilot** PRs](https://github.com/ramenvr/autopilot) | Contributions merged into an open-source AI agent that plays and tests games: [#40](https://github.com/ramenvr/autopilot/pull/40) Roblox Studio connector, [#38](https://github.com/ramenvr/autopilot/pull/38) model-free replay, [#39](https://github.com/ramenvr/autopilot/pull/39) `evolve` loop | Merged into `staging`, 7 Nov 2026 |
+| [**agent-firewall**](https://github.com/JehanzebAli11/agent-firewall) | Checks an agent's action (send, pay, sign) against what the user actually asked for, before it runs | On attack styles held out of training: injection success 23.3% → 0.2% (8 of 5,000), 0.9% of legitimate actions blocked. Synthetic attacks, scripted agents. |
+| [**lost-in-transliteration**](https://github.com/JehanzebAli11/lost-in-transliteration) | Do prompt-injection defences work in Urdu and Roman Urdu? | Meta Prompt Guard 2 catches 48.5% of English attacks but 11.5% of the same attacks in Roman Urdu (194/400 vs 46/399) |
+| [**JzLab**](https://github.com/JehanzebAli11/JzLab) | The control room that starts and steers several Claude Code agents at once, on my Mac and an NVIDIA DGX Spark | Runs these projects |
 
-Coming in December: an open benchmark of prompt-injection and jailbreak attacks in Urdu
-and Roman Urdu.
+Every number above comes from a result file in its repo, with its n.
 
-### Also
+### Building
 
-[psx-market-lens](https://github.com/ClankerJZ/psx-market-lens): a permissioned Pakistan
-Stock Exchange data collector with a self-contained offline dashboard.
+[Valar](https://valar.digital), an AI traffic firewall that catches secrets, personal data and
+prompt attacks before they reach LLMs, in English, Urdu and Roman Urdu ·
+[TableSide](https://tableside.pk), photo-to-3D AR menus in Pakistani restaurants.
+
+Also: [spark-lab](https://github.com/JehanzebAli11/spark-lab) (self-healing GPU job queue) ·
+[scam-radar](https://github.com/JehanzebAli11/scam-radar) (on-device Roman Urdu scam checker) ·
+[urdu-token-tax](https://github.com/JehanzebAli11/urdu-token-tax) ·
+[cricket-shot-coach](https://github.com/JehanzebAli11/cricket-shot-coach)
 
 ### Stack
 
-Python · PyTorch · Hugging Face (Transformers, PEFT, TRL) · Unsloth · vLLM · NVIDIA DGX Spark ·
-Lua/Luau · C# · Unity · Roblox Studio · TypeScript
+Python · TypeScript · PyTorch · Hugging Face (Transformers, PEFT, TRL) · vLLM · Unsloth/LoRA ·
+MCP · Claude Agent SDK · evals and red-teaming · Luau · C# · Unity · Roblox Studio
 
 [LinkedIn](https://www.linkedin.com/in/jehanzeb-ali-87b875187/) · jehanzebali111@gmail.com
