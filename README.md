@@ -35,4 +35,4 @@ Also: [spark-lab](https://github.com/JehanzebAli11/spark-lab) (self-healing GPU 
 Python · TypeScript · PyTorch · Hugging Face (Transformers, PEFT, TRL) · vLLM · Unsloth/LoRA ·
 MCP · Claude Agent SDK · evals and red-teaming · Luau · C# · Unity · Roblox Studio
 
-[LinkedIn](https://www.linkedin.com/in/jehanzeb-ali-87b875187/) · jehanzebali111@gmail.com
+[jz.business](https://jz.business) · [LinkedIn](https://www.linkedin.com/in/jehanzeb-ali-87b875187/) · jehanzebali111@gmail.com
